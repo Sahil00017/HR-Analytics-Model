@@ -91,30 +91,33 @@ The dataset contains anonymized employee records with the following key features
 - **Training Accuracy:** `0.6116`
 - **Precision:** `0.6195`
 - **Recall:** `0.5824`
-- **Confusion Matrix:** `[[341 191], [223 311]]`
-- **Classification Report:**
-            precision    recall  f1-score   support
-     0       0.60      0.64      0.62       532
-     1       0.62      0.58      0.60       534
+- **Confusion Matrix(Training Data):** `[[341 191], [223 311]]`
+- **📊 Classification Report (Training Data):**
 
-accuracy                       0.61      1066
-macro avg     0.61      0.61      0.61      1066
-weighted avg  0.61      0.61      0.61      1066
+| Class | Precision | Recall | F1-Score | Support |
+|-------|-----------|--------|----------|---------|
+| **0** | 0.60      | 0.64   | 0.62     | 532     |
+| **1** | 0.62      | 0.58   | 0.60     | 534     |
+| **Accuracy** |   |   | **0.61** | **1066** |
+| **Macro Avg** | 0.61 | 0.61 | 0.61 | 1066 |
+| **Weighted Avg** | 0.61 | 0.61 | 0.61 | 1066 |
+
 
 ### 🧪 **Testing Performance:**
 - **Testing Accuracy:** `0.5815`
 - **Precision:** `0.5875`
 - **Recall:** `0.5311`
--  **Confusion Matrix:** `[[113 66]
-                           [83 94]]`
-- **Classification Report:**
-              precision    recall  f1-score   support
-       0       0.58      0.63      0.60       179
-       1       0.59      0.53      0.56       177
+-  **Confusion Matrix(Testing Data):** `[[113 66],[83 94]]`
+-  **Classification Report(Testing Data):**
 
-accuracy                           0.58       356
-macro avg       0.58      0.58      0.58       356
-weighted avg    0.58      0.58      0.58       356
+| Class | Precision | Recall | F1-Score | Support |
+|-------|-----------|--------|----------|---------|
+| 0     | 0.58      | 0.63   | 0.60     | 179     |
+| 1     | 0.59      | 0.53   | 0.56     | 177     |
+| **Accuracy** |       |        | **0.58** | **356** |
+| **Macro avg** | 0.58  | 0.58   | 0.58     | 356     |
+| **Weighted avg** | 0.58  | 0.58   | 0.58     | 356     |
+
 
 ### 📌 **Observations**
 - The **training accuracy (61%)** is slightly higher than **testing accuracy (58%)**, suggesting moderate generalization.
