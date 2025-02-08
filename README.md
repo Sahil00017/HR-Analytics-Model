@@ -91,7 +91,10 @@ The dataset contains anonymized employee records with the following key features
 - **Training Accuracy:** `0.6116`
 - **Precision:** `0.6195`
 - **Recall:** `0.5824`
-- **Confusion Matrix(Training Data):** `[[341 191], [223 311]]`
+- **Confusion Matrix(Training Data):**
+  ```
+  [[341 191], [223 311]]
+  ```
 - **📊 Classification Report (Training Data):**
 
 | Class | Precision | Recall | F1-Score | Support |
@@ -107,7 +110,10 @@ The dataset contains anonymized employee records with the following key features
 - **Testing Accuracy:** `0.5815`
 - **Precision:** `0.5875`
 - **Recall:** `0.5311`
--  **Confusion Matrix(Testing Data):** `[[113 66],[83 94]]`
+-  **Confusion Matrix(Testing Data):**
+  ```
+   [[113 66],[83 94]]
+  ```
 -  **Classification Report(Testing Data):**
 
 | Class | Precision | Recall | F1-Score | Support |
