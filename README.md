@@ -64,7 +64,7 @@ pip install pandas numpy matplotlib seaborn scipy scikit-learn
   cd HR-Analytics-Regression
   ```
 2. 📂 Open Jupyter Notebook:
-   ```bash
+  ```bash
   jupyter notebook
   ```
 3. ▶️ Run HR_Analytics.ipynb sequentially.
