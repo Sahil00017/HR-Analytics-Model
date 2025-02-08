@@ -59,14 +59,14 @@ pip install pandas numpy matplotlib seaborn scipy scikit-learn
 
 ## 🛠 Running the Notebook
 1. 🚀 Clone the repository:
-   ```bash
+```bash
   git clone https://github.com/Sahil00017/HR-Analytics-Regression
   cd HR-Analytics-Regression
-  ```
+```
 2. 📂 Open Jupyter Notebook:
-  ```bash
+```bash
   jupyter notebook
-  ```
+```
 3. ▶️ Run HR_Analytics.ipynb sequentially.
 
 ## 📑 Dataset Information  
